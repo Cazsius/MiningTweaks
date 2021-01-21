@@ -6,7 +6,8 @@
 # The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
 modLoader="javafml" #mandatory
 # A version range to match for said mod loader - for regular FML @Mod it will be the forge version
-loaderVersion="[25,)" #mandatory (24 is current forge version)
+loaderVersion="[33,)" #mandatory (33 forge for 1.16.2)
+license="All rights reserved"
 # A URL to refer people to when problems occur with this mod
 #issueTrackerURL="http://my.issue.tracker/" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
@@ -26,10 +27,8 @@ displayName="Mining Tweaks" #mandatory
 # A text field displayed in the mod UI
 #credits="Thanks for this example mod goes to Java" #optional
 # A text field displayed in the mod UI
-authors="Tfarecnim, Ellpeck" #optional
+authors="Tfarecnim, Ellpeck, Zeitheron" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-
 A mod that lets you configure the hardness and mining level of existing blocks
-
 '''
